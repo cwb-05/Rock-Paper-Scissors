@@ -1,0 +1,65 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Ubuntu Display', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+.heading {
+    text-align: center;
+    height: 40%;
+}
+
+/* Main */
+.play-area {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    background-color: gray;
+}
+
+.score-area {
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+
+.computer-result {
+    background-color: lightcoral;
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+
+#computer-pic {
+    width: 90%;
+}
+
+.score {
+    width: 100%;
+}
+
+.user-result {
+    background-color: lightgreen;
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+
+#user-pic {
+    width: 90%;
+}
+
+/* Footer */

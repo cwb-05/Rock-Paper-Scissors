@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors, Lizard, Spock</title>
 </head>
 <body>
     <h1 class="heading">Rock, Paper, Scissors, Lizard, Spock</h1>
 
     <main>
         <div class="play-area">
-            <button data-type="rock">Rock</button>
-            <button data-type="paper">Paper</button>
-            <button data-type="scissors">Scissors</button>
-            <button data-type="lizard">Lizard</button>
-            <button data-type="spock">Spock</button>
+            <button data-choice="0">Rock</button>
+            <button data-choice="1">Paper</button>
+            <button data-choice="2">Scissors</button>
+            <button data-choice="3">Lizard</button>
+            <button data-choice="4">Spock</button>
         </div>
 
-        <div class="computer-result"></div>
-        <div class="user-result"></div>
+        <div class="score-area">
+            <div class="computer-result">
+                <img id="computer-pic" src="" alt="Rock, Paper, Scissors, Lizard, Spock">
+                <h3>PC</h3>
+            </div>
+            <div id="scores">
+            <p class="wins score">Wins: <span id="win-score">0</span></p>
+            <p class="ties score">Ties: <span id="tie-score">0</span></p>
+            <p class="losses score">Losses: <span id="loss-score">0</span></p>
+            </div>
+            <div class="user-result">
+                <img id="user-pic" src="" alt="Rock, Paper, Scissors, Lizard, Spock">
+                <h3>User</h3>
+            </div>
+        </div>
 
-        <div class="score-area"></div>
-        <p class="wins">Wins: <span id="win-score">0</span></p>
-        <p class="losses">Losses: <span id="loss-score">0</span></p>
+        
     </main>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/50c434d74e.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
