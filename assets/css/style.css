@@ -45,6 +45,7 @@ body {
 
 #computer-pic {
     width: 90%;
+    margin: 4%;
 }
 
 .score {
@@ -60,6 +61,16 @@ body {
 
 #user-pic {
     width: 90%;
+    margin: 4%;
 }
 
 /* Footer */
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
