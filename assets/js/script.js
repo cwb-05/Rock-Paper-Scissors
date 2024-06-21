@@ -35,5 +35,60 @@ function playGame(userChoice) {
 
 /**Checks for the winner, or for a tie. It accepts two strings */
 function checkWinner(value1, value2) {
-    
+    if (value1 === 'rock') {
+        if (value2 === 'paper' || value2 === 'spock') {
+            alert('Congrats! You beat the computer!');
+            return 'winner';
+        } else if (value2 === 'lizard'|| value2 === 'scissors') {
+            alert('Aww, looks like the computer won this round...');
+            return 'loser';
+        } else {
+            alert('Hmm, looks like a tie. Care to try again?');
+            return 'tied';
+        }
+    } else if (value1 === 'paper') {
+        if (value2 === 'scissors' || value2 === 'lizard') {
+            alert('Congrats! You beat the computer!');
+            return 'winner';
+        } else if (value2 === 'rock' || value2 === 'spock') {
+            alert('Aww, looks like the computer won this round...');
+            return 'loser';
+        } else {
+            alert('Hmm, looks like a tie. Care to try again?');
+            return 'tied';
+        }
+    } else if (value1 === 'scissors') {
+        if (value2 === 'rock' || value2 === 'spock') {
+            alert('Congrats! You beat the computer!');
+            return 'winner';
+        } else if (value2 === 'lizard' || value2 === 'paper') {
+            alert('Aww, looks like the computer won this round...');
+            return 'loser';
+        } else {
+            alert('Hmm, looks like a tie. Care to try again?');
+            return 'tied';
+        }
+    } else if (value1 === 'lizard') {
+        if (value2 === 'scissors' || value2 === 'rock') {
+            alert('Congrats! You beat the computer!');
+            return 'winner';
+        } else if (value2 === 'spock' || value2 === 'paper') {
+            alert('Aww, looks like the computer won this round...');
+            return 'loser';
+        } else {
+            alert('Hmm, looks like a tie. Care to try again?');
+            return 'tied';
+        }
+    } else if (value1 === 'spock') {
+        if (value2 === 'lizard' || value2 === 'paper') {
+            alert('Congrats! You beat the computer!');
+            return 'winner'
+        } else if (value2 === 'scissors' || value2 === 'rock') {
+            alert('Aww, looks like the computer won this round...');
+            return 'loser'
+        } else {
+            alert('Hmm, looks like a tie. Care to try again?');
+            return 'tied';
+        }
+    }
 }
