@@ -92,3 +92,17 @@ function checkWinner(value1, value2) {
         }
     }
 }
+
+/**Updating the correct score based off of the result */
+function updateScores(var1) {
+    if (var1 === 'winner') {
+        let oldScore = parseInt(winScore.innerText);
+        winScore.innerText = ++oldScore;
+    } else if (var1 === 'tied') {
+        let oldScore = parseInt(tieScore.innerText);
+        tieScore.innerText = ++oldScore;
+    } else {
+        let oldScore = parseInt(lossScore.innerText);
+        lossScore.innerText = ++oldScore;
+    }
+}

@@ -24,11 +24,9 @@ body {
     margin-right: auto;
     text-align: center;
     width: 80%;
-    background-color: gray;
 }
 
 .score-area {
-    background-color: gray;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
