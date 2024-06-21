@@ -19,6 +19,7 @@ body {
 
 /* Main */
 .play-area {
+    flex: 1 0 auto;
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -64,11 +65,19 @@ body {
 
 /* Footer */
 footer {
-    position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
     background-color: black;
     color: white;
     text-align: center;
+}
+
+#rules {
+    padding-top: 10px;
+}
+
+#rpsls-img {
+    width: 60%;
+    margin: 10px;
 }
