@@ -6,6 +6,7 @@ const tieScore = document.getElementById('tie-score');
 const userImage = document.getElementById('user-img');
 const computerImage = document.getElementById('computer-img');
 const buttons = document.getElementsByClassName('button');
+const TIED = "tied";
 
 /** Adding an event listener to the buttons */
 for (let button of buttons) {
