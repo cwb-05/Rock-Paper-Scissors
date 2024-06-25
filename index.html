@@ -9,7 +9,12 @@
 </head>
 
 <body>
-    <h1 class="heading">Rock, Paper, Scissors, Lizard, Spock</h1>
+    <header>
+    <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+        <nav>
+            <a id="rules-link" href="rules.html" alt="link to rules">Rules</a>
+        </nav>
+    </header>
 
     <main>
         <div class="play-area">
@@ -19,6 +24,11 @@
             <button class="button" data-choice="3">Lizard</button>
             <button class="button" data-choice="4">Spock</button>
         </div>
+        <div id="scores">
+                <p class="wins score">Wins: <span id="win-score">0</span></p>
+                <p class="ties score">Ties: <span id="tie-score">0</span></p>
+                <p class="losses score">Losses: <span id="loss-score">0</span></p>
+        </div>
 
         <div class="score-area">
             <div class="computer-result">
@@ -26,25 +36,16 @@
                 <img id="computer-img" src="assets/images/question.png" alt="question">
                 <h3>PC</h3>
             </div>
-            <div id="scores">
-                <p class="wins score">Wins: <span id="win-score">0</span></p>
-                <p class="ties score">Ties: <span id="tie-score">0</span></p>
-                <p class="losses score">Losses: <span id="loss-score">0</span></p>
-            </div>
+            
             <div class="user-result">
                 <!-- Image by https://pixabay.com/users/openicons-28911/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=99085 OpenIcons from https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=99085 Pixabay-->
                 <img id="user-img" src="assets/images/question.png" alt="Rock, Paper, Scissors, Lizard, Spock">
                 <h3>User</h3>
             </div>
+            
         </div>
-
+        
     </main>
-
-    <footer>
-        <h3 id="rules">Rules</h3>
-        <!-- Image: Copyright 2024 Brendan Conley. Link: https://puzzlewocky.com/parlor-games/rock-paper-scissors-lizard-spock/. Licensed under CC BY-NY 4.0 Link: https://creativecommons.org/licenses/by-nc/4.0/ -->
-        <img src="assets/images/RockPaperScissorsLizardSpock.jpg" alt="Rock, Paper, Scissors, Lizard, Spock">
-    </footer>
 
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/50c434d74e.js" crossorigin="anonymous"></script>
