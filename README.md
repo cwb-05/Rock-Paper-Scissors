@@ -9,6 +9,53 @@ This simple app will be targeted to a wide range of adults and children to enjoy
 
 ## Features
 
+<ul>
+<li>Heading</li>
+  <ul>
+    <li>The heading lets the user know exactly what this website does if they are familiar with this version of the "Rock, Paper, Scissors" game, and gives them a good clue as to it's natue if not.</li>
+    <li>The font used is approachable yet still formal. Keying the user in, that this is both a fun and educational experience. </li>
+  </ul>
+
+  ![The header section](documentation/header.jpg)
+
+  <li>Navigation to the Rules</li>
+  <ul>
+    <li>Small yet easily spotible link brings the user to the page with a picture depicting the rules.</li>
+    <li>The text in the link motivates the user to look at the rules before playing, if they are unfamiliar.</li>
+  </ul>
+
+  ![The navigation to the rules](documentation/nav-to-rules.jpg)
+
+  <li>The Game Area</li>
+  <ul>
+    <li>Two question marks act as placeholders for where the images of the results will later be displayed.</li>
+    <li>Five buttons represent the five options the player has to chose from.</li>
+    <li>Upon clicking their button of choice an alert will apear with the result of the game.Win, Loss, or Tie</li>
+    <li>After the alert is clicked away. The scoreboard under the buttons will add the result.</li>
+    <li>In the green box on the right the players choice will be reflected by an image of the hand gesture that represents their choice.</li>
+    <li>In the red box on the left, an image representing the hand geture corresponing to the computers randomly chosen option will be shown.</li>
+  </ul>
+
+  ![The game area](documentation/game-area.jpg)
+
+  <li>Navigation to the Game</li>
+  <ul>
+    <li>After clicking the link to the rules page, the link to go back to the game is located in the location as the link to the rules, making it easy for the user to find.</li>
+    <li>The language of the link entices the user to play the game after being familiarized with the rules.</li>
+  </ul>
+
+  ![The navigation to the game](documentation/nav-to-game.jpg)
+
+  <li>The Rules Area</li>
+  <ul>
+    <li>An easily understandable image communicates the rules of the game.</li>
+    <li>It displays all the hand gestures that will be used in the course of the game.</li>
+  </ul>
+
+  ![The Rules section](documentation/rules.jpg)
+
+</ul>
+
 ## Testing
 
 <ul>
