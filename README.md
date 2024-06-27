@@ -91,3 +91,16 @@ The website was deployed to GitHub pages. The steps on how to deploy it are:
 </ul>
 
 ## Credits
+<ul>
+  <li>Content</li>
+    <ul>
+      <li>General CSS and Initial JS for constants and main function inspired by CI PP2 Example-Project.
+      </li>
+      <li>Fonts from <a href="https://fonts.google.com/" aria-label="Go to Google Fonts" rel="noopener" target="_blank">Google Fonts</a></li>
+    </ul>
+
+  <li>Media</li>
+    <ul>
+      <li>Image of question mark by <a href="https://pixabay.com/users/openicons-28911/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=99085" aria-label="Go to OpenIcons on Pixabay" rel="noopener" target="_blank">OpenIcons</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=99085" aria-label="Go to Pixabay" rel="noopener" target="_blank">Pixabay</a></li>
+    </ul>
+</ul>
