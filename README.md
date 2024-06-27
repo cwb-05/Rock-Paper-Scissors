@@ -102,5 +102,6 @@ The website was deployed to GitHub pages. The steps on how to deploy it are:
   <li>Media</li>
     <ul>
       <li>Image of question mark by <a href="https://pixabay.com/users/openicons-28911/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=99085" aria-label="Go to OpenIcons on Pixabay" rel="noopener" target="_blank">OpenIcons</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=99085" aria-label="Go to Pixabay" rel="noopener" target="_blank">Pixabay</a></li>
+      <li>Image of <a href="https://puzzlewocky.com/parlor-games/rock-paper-scissors-lizard-spock/" aria-label="Go to Puzzlewocky" rel="noopener" target="_blank">Rules</a>: Copyright 2024 Brendan Conley. Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" aria-label="Go to Creative Commons" rel="noopener" target="_blank">CC BY-NY 4.0</a> Edited: Cut, by me</li>
     </ul>
 </ul>
