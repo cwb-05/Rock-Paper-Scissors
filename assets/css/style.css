@@ -77,8 +77,8 @@ button {
     margin: 4%;
 }
 
-/* Footer */
-footer {
+/* Rules page */
+#rules-area {
     width: 100%;
     left: 0;
     bottom: 0;
@@ -89,7 +89,39 @@ footer {
     padding-top: 10px;
 }
 
-footer img {
-    width: 70%;
+#rules-area img {
+    width: 83%;
     margin: 10px;
+    height: 53vh;
+}
+
+/* Media query: tablets and larger (768px or wider) */
+@media screen and (min-width: 768px) {
+    /* Rules page */
+    #rules-area img {
+        width: 60%;
+        margin: 10px;
+        height: 65vh;
+    }
+}
+
+/* Media query: laptops and larger (1024px or wider) */
+@media screen and (min-width: 1024px) {
+    /* Results area*/
+    #user-img {
+        width: 60%;
+        margin: 4%;
+    }
+
+    #computer-img {
+        width: 60%;
+        margin: 4%;
+    }
+    
+    /* Rules page */
+    #rules-area img {
+        width: 50%;
+        margin: 10px;
+        height: 65vh;
+    }
 }
